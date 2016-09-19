@@ -6,6 +6,7 @@
 using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
+using UnityEngine.SceneManagement;
 
 public class ApplePicker : MonoBehaviour
 {
@@ -55,7 +56,7 @@ public class ApplePicker : MonoBehaviour
 		//Restart the game, which doesn't affect HighScore.score
 		if (basketList.Count == 0)
 		{
-			Application.LoadLevel("Scene 0");
+			SceneManager.LoadScene("Scene 0");
 		}
 	}
 	#endregion
