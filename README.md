@@ -1,6 +1,8 @@
 # apple-picker
 
-This is a simple prototype of an Apple Picker game. See the image for example gameplay.
+This is a simple prototype of an Apple Picker game. Here is an example image of gameplay:
+
+![alt tag](https://raw.githubusercontent.com/mplawley/apple-picker/master/apple-picker example.png)
 
 # installation and play
 
