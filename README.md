@@ -10,5 +10,5 @@ Open Unity and start Scene 0 for easy difficulty. Start Scene 1 for hard difficu
 
 # motivation
 
-After doing a fair amount of Unity development this year, I wanted to ensure that there are no holes in the foundation of my knowledge. So I am going through Jeremy Gibson's Game Design, Prototyping, and Development textbook and building the 5 prototypes he gives the reader to do. This is the first prototype.
+After doing a fair amount of Unity development this year, I wanted to ensure that there are no glaring holes in the foundation of my knowledge. So I am going through Jeremy Gibson's <i>Game Design, Prototyping, and Development</i> textbook and building the 5 prototypes he gives the reader to do. This is the first prototype.
 
