@@ -282,3 +282,25 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9b23e873d5eac4e3e90300c70d516524, type: 2}
   m_IsPrefabParent: 0
+--- !u!1 &1714726733 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1000012713182960, guid: 9b23e873d5eac4e3e90300c70d516524,
+    type: 2}
+  m_PrefabInternal: {fileID: 1530085861}
+--- !u!114 &1714726735
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1714726733}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe76212842a51451984d4ed66193847d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  applePrefab: {fileID: 1000012452772460, guid: 82167a9927c404247ae7e2e9f53beb9b,
+    type: 2}
+  appleTreeSpeed: 10
+  leftAndRightEdge: 10
+  chanceToChangeDirections: 0.01
+  secondsBetweenAppleDrops: 1
