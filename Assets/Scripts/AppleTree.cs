@@ -56,8 +56,14 @@ public class AppleTree : MonoBehaviour
 
 	void DropApple()
 	{
-		GameObject apple = Instantiate(applePrefab) as GameObject;
+		GameObject apple = NewObjectPoolerScript.current.GetPooledObject();
+		if (apple == null)
+		{
+			return;
+		}
 		apple.transform.position = transform.position;
+		apple.transform.rotation = transform.rotation;
+		apple.SetActive(true);
 	}
 
 	#endregion
