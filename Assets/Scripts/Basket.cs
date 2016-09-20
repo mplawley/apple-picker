@@ -51,7 +51,7 @@ public class Basket : MonoBehaviour
 		GameObject collidedWith = col.gameObject;
 		if (collidedWith.tag == "Apple")
 		{
-			Destroy(collidedWith);
+			collidedWith.SetActive(false);
 		}
 
 		//Parse the text of the scoreGT into an int

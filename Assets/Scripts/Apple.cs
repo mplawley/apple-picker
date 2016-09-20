@@ -15,10 +15,10 @@ public class Apple : MonoBehaviour
 	#region Methods
 	void Update()
 	{
-		//Destroy me if I'm off-screen
+		//De-activate me if I'm off-screen
 		if (transform.position.y < bottomY)
 		{
-			Destroy(this.gameObject);
+			this.gameObject.SetActive(false);
 			//Get a reference to the ApplePicker component of the Main Camera
 			ApplePicker applePickerScript = Camera.main.GetComponent<ApplePicker>();
 
