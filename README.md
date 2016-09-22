@@ -6,7 +6,7 @@ This is a simple prototype of an Apple Picker game. Here is an example image of 
 
 # installation and play
 
-Open Unity and start Scene 0 for easy difficulty. Use your mouse to catch the apples!
+Open Unity and start Scene 0. Use your mouse to catch the apples!
 
 # motivation
 
